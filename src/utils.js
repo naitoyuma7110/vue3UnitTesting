@@ -1,18 +1,18 @@
-import axios from 'axios';
+import axios from "axios";
 
 // 完全自作の関数をexport
 export const double = (num) => {
-	return num * 2;
-}
+  return num * 2;
+};
 
 // axiosを使用したgetリクエストを実行する関数を名前付きexport
 export const fetchUserData = async (userId) => {
-	// 指定したuserIDに応じてdataを取得
-	const endPoint = `https://jsonplaceholder.typicode.com/todos/${userId}`;
-	const res = await axios.get(endPoint);
+  // 指定したuserIDに応じてdataを取得
+  const endPoint = `https://jsonplaceholder.typicode.com/todos/${userId}`;
+  const res = await axios.get(endPoint);
 
-	// axiosで取得したオブジェクトのbodyへはdataでアクセスする？
-	return res.data;
+  // axiosで取得したオブジェクトのbodyへはdataでアクセスする？
+  return res.data;
 };
 
 /*
