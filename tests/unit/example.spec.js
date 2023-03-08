@@ -1,9 +1,9 @@
-import { shallowMount } from "@vue/test-utils";
-import HelloWorld from "@/components/HelloWorld.vue";
+import { shallowMount } from '@vue/test-utils';
+import HelloWorld from '@/components/HelloWorld.vue';
 
-describe("HelloWorld.vueの初期テスト", () => {
-  it("renders props.msg when passed", () => {
-    const msg = "new message";
+describe('HelloWorld.vueの初期テスト', () => {
+  it('renders props.msg when passed', () => {
+    const msg = 'new message';
     // wrapperにマウントした際、propsにmsgを渡す
     const wrapper = shallowMount(HelloWorld, {
       props: { msg },
