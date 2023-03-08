@@ -28,7 +28,7 @@ describe('より細かく分割したVuexのテスト', () => {
     const wrapper = shallowMount(counterView, {
       global: {
         mocks: {
-          $store, // $store: $store の省略記法です
+          $store, // $store: $store の省略
         },
       },
     });
