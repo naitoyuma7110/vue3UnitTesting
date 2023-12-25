@@ -1,29 +1,6 @@
-# vue3-typescript-unittest
+# vue3-unittest
 
-## Project setup
-```
-npm install
-```
+めっちゃ分かりやすかったです。U・ω・U
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
-
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Run your unit tests
-```
-npm run test:unit
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+https://zenn.dev/tentel/books/08b63492b00f0a
+![image](https://github.com/naitoyuma7110/vue3UnitTesting/assets/128150297/1bf7d7df-bc4c-4af6-a25b-a7658b04fb54)
